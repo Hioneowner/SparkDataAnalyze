@@ -12,4 +12,12 @@
     <artifactId>product-log</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.pengcoder</groupId>
+            <artifactId>project-Common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>

@@ -6,8 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SparkDataAnalyze" />
+        <module name="product-log" />
+        <module name="log-server" />
+        <module name="project-Common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="log-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="log-server" options="-parameters" />
+      <module name="log-service" options="" />
+      <module name="pengdemo" options="-parameters" />
+      <module name="product-log" options="-parameters" />
+      <module name="project-Common" options="-parameters" />
+    </option>
   </component>
 </project>
