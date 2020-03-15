@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/log-service/log-service.iml" filepath="$PROJECT_DIR$/log-service/log-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-log/product-log.iml" filepath="$PROJECT_DIR$/product-log/product-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-Common/project-Common.iml" filepath="$PROJECT_DIR$/project-Common/project-Common.iml" />
+    </modules>
+  </component>
+</project>
