@@ -13,7 +13,7 @@ public class LogUpLoader {
         try {
 
             System.out.println("=========start=======");
-            URL url = new URL("http://localhost:80/log");
+            URL url = new URL("http://localhost:8080/log");
             HttpURLConnection connection =  (HttpURLConnection)url.openConnection();
 
             connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");

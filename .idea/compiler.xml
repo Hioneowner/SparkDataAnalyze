@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="realtime" />
         <module name="product-log" />
         <module name="log-server" />
         <module name="project-Common" />
@@ -22,6 +23,7 @@
       <module name="pengdemo" options="-parameters" />
       <module name="product-log" options="-parameters" />
       <module name="project-Common" options="-parameters" />
+      <module name="realtime" options="-parameters" />
     </option>
   </component>
 </project>
